@@ -211,7 +211,17 @@
     background-color: #FFEEE9;
     padding: 15px 40px;
     border-radius: 10px;
+    position: relative;
   
+  }
+  .circle{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: #F35424;
+    border-radius: 50%;
+    top: -10%;
+    right: -3%;
   }
   .bottom-btn-no{
     font-size: 2rem;
@@ -1099,6 +1109,9 @@
   @media(min-width:1197px) and (max-width:1467px){
     .left-form{
       padding: 2rem;
+    }
+    .map-info{
+      padding-top: 6rem;
     }
   }
  @media (max-width:1196px){
